@@ -13,7 +13,7 @@ export default defineUserConfig({
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "",
+      title: "博客主页",
       description: "TheBreeze的个人博客",
     },
   },

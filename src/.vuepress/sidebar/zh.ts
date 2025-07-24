@@ -15,9 +15,7 @@ export const zhSidebar = sidebar({
       text: "后端",
       icon: "gears",
       prefix: "backend/",
-      children: [
-       
-      ],
+      children: "structure"
     },
     "intro",
   ],

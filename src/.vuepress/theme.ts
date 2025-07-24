@@ -23,11 +23,9 @@ export default hopeTheme({
     medias: {
       Baidu: "https://www.baidu.com",
       BiliBili: "https://bilibili.com",
-      Email: "3246119723@qq.com",
       Gitee: "https://gitee.com/thebreeze12",
       GitHub: "https://github.com/TheBreeze12",
-      Gmail: "zjiayu551@gmail.com",
-      QQ: "",
+      QQ: "tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=3246119723",
       VuePressThemeHope: {
         icon: "https://theme-hope-assets.vuejs.press/logo.svg",
         link: "https://theme-hope.vuejs.press",
@@ -73,7 +71,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        description: "武汉大学计算机本科在读",
         intro: "/zh/intro.html",
       },
 
@@ -178,10 +176,10 @@ export default hopeTheme({
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
+    comment: {
+      provider: "Waline",
+      serverURL: "https://waline-comment.vuejs.press",
+    },
 
     components: {
       components: ["Badge", "VPCard"],
