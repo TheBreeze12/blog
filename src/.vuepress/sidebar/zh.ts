@@ -4,6 +4,12 @@ export const zhSidebar = sidebar({
    "/zh/": [
     "",
     {
+      text: "Python",
+      icon: "lightbulb",
+      prefix: "python/",
+      children:['python笔记.md']
+    },
+    {
       text: "前端",
       icon: "lightbulb",
       prefix: "frontend/",
@@ -19,6 +25,6 @@ export const zhSidebar = sidebar({
     },
     "intro",
   ],
-  "/zh/frontend/": "structure",
-  "/zh/backend/": "structure",
+  // "/zh/frontend/": "structure",
+  // "/zh/backend/": "structure",
 });

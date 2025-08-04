@@ -2,6 +2,13 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   {
+    text: "Python",
+    icon: "pen-to-square",
+    // link: "/zh/python/",
+    children:['/zh/python/python笔记.md']
+  
+  }, 
+  {
     text: "前端",
     icon: "pen-to-square",
     prefix: "/zh/frontend/",
