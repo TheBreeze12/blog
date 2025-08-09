@@ -4,8 +4,15 @@ export const zhNavbar = navbar([
   {
     text: "Python",
     icon: "pen-to-square",
-    // link: "/zh/python/",
+    link: "/zh/python/",
     children:['/zh/python/python笔记.md']
+  
+  },  
+  {
+    text: "英语",
+    icon: "pen-to-square",
+    link: "/zh/english/",
+    children:['/zh/english/unit1.md']
   
   }, 
   {

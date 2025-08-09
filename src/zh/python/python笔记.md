@@ -246,15 +246,12 @@ list1 = [1, 2, 3]
 tuple1[0] = 4  # 报错，元组不可变
 list1[0] = 4  # 正常，列表可变
 ```
-
 - append()方法
 - insert()方法
 - remove()方法
-
-```
 - 列表推导式
 ```python
-list2 = [x * 2 for x in range(5)]  # 生成一个包含0到8的偶数的列表
+  list2 = [x * 2 for x in range(5)]  # 生成一个包含0到8的偶数的列表
 ```
 
 ### 字典
@@ -267,3 +264,36 @@ mymap['name']='Mike' # 改
 'name' in mymap # 查
 for name,phone in phones.items(): # keys()  values()
     print(f'名字：{name},电话：{phone}')
+```
+
+## 1.7深浅拷贝
+### 1.赋值（完全共享资源）
+
+
+### 2.深浅拷贝
+会创建一个新对象，拷贝第一层数据，嵌套层会指向原来的内存地址
++ 优点：时间短，速度快,空间小
++ 深拷贝
+```python
+import copy # 导入模块
+
+l1=[1,2,3,[4,5,6]]
+l2=l1.copy()
+l3=copy.deepcopy(l1)
+
+l1.append(5)
+l1[3].append(10)
+print("l1:",l1)
+print("l2:",l2)
+print("l3:",l3)
+
+# 查看内存地址
+print("l1的内存地址:",id(l1[3]))
+print("l2的内存地址:",id(l2[3]))
+print("l2的内存地址:",id(l3[3]))
+```
+### 3.可变对象：list dict set
++ 含义：改变值但是地址不会发生改变
++ 不可变类型:数值，str,turple.若修改值会分配新的空间
++ 深浅拷贝只针对于可变对象
+

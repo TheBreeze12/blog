@@ -8,6 +8,12 @@ export const zhSidebar = sidebar({
       icon: "lightbulb",
       prefix: "python/",
       children:['python笔记.md']
+    }, 
+    {
+      text: "英语",
+      icon: "lightbulb",
+      prefix: "english/",
+      children:['unit1.md']
     },
     {
       text: "前端",
