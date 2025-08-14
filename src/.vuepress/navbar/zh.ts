@@ -5,14 +5,19 @@ export const zhNavbar = navbar([
     text: "Python",
     icon: "pen-to-square",
     link: "/zh/python/",
-    children:['/zh/python/python笔记.md']
-  
+    children:['/zh/python/python笔记.md','/zh/python/pachong1.md','/zh/python/pachong2.md']
   },  
+  {
+    text: "项目",
+    icon: "folder-open",
+    link: "/zh/project/",
+    children:['/zh/project/weixinai.md']
+  },
   {
     text: "英语",
     icon: "pen-to-square",
     link: "/zh/english/",
-    children:['/zh/english/unit1.md']
+    children:['/zh/english/unit1.md','/zh/english/unit2.md']
   
   }, 
   {
@@ -28,6 +33,12 @@ export const zhNavbar = navbar([
     prefix: "/zh/backend/",
     link: "/zh/backend/",
   
+  },
+  {
+    text: "其他",
+    icon: "pen-to-square",
+    link: "/zh/other/",
+    children:['/zh/other/CursorProjectRule.md']
   },
   {
     text: "V2 文档",

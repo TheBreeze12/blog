@@ -8,7 +8,6 @@ tag:
   - 学习
 ---
 
-
 # Unit 1
 
 ## lesson1
@@ -101,10 +100,11 @@ log原木日志 barrier timber embarrass(ment) awkward barren bargain bare bald 
 
 emerge出现 emergency紧急情况 urgent haste(n) hasten hasty(adj)紧急，督促 submerge swamp overwhelm(淹没) submarine（潜艇，海底的） marine(海洋的)
 
-### 2.re/er相关的单词
+### 2.re|er相关的单词
 
+reel adore admire eradicate **refrain**(v.克制避免n.经常反复的评价) refrain from smoking regulate regular regularity(规律性) irregular deregulate relate relation(ship) relative correlate(相互关联) correlation correlative resort(求助，旅游胜地) haunt(经常去的地方，萦绕于脑际) hound(猎犬，追踪跟踪)
 
-#### 3.与fore有关的单词
+### 3.与fore有关的单词
 
 forth forthcoming forecast cast broadcast foretell foresee foreseeable foresight foremost beforehand(事先)
 
